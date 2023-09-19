@@ -22,3 +22,6 @@ instead of [1], which is a little bit counterintuitive.
 print pizza[0] #would print "veggie"
 print pizza[0][3] #prints "g" because it is the 3rd letter in the first element
 print pizza.values_at(0, 3) #prints "veggie", "hawaiian"
+
+#.clear removes all items from an array
+pizza.clear #outputs [nil] --no more pizza :(
